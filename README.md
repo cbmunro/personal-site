@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4785ccc5-6ddb-43e1-991e-640e1c5cfcb2/deploy-status)](https://app.netlify.com/sites/festive-jepsen-d796fd/deploys)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
