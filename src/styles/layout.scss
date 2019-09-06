@@ -1,0 +1,9 @@
+@import "global";
+
+%layout {
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $space * 7;
+  padding-left: $space * 7;
+}

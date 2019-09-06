@@ -1,0 +1,39 @@
+@import "../layout";
+
+.hero {
+  margin-top: $space * 7;
+  padding-top: $space * 32;
+  padding-bottom: $space * 40;
+  background: $background-color-2;
+
+  &__inner {
+    @extend %layout;
+    position: relative;
+    z-index: 1;
+    max-width: 295px;
+    padding-top: $space * 8;
+    border-top: 2px solid $text-color-1;
+  }
+
+  &__shapes {
+    @extend %layout;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: none;
+    height: $space * 114;
+  }
+
+  &__shape {
+    position: absolute;
+
+    svg {
+      display: block;
+    }
+
+    &--1 { top: 0; }
+    &--2 { left: 25vw; bottom: 0; transform: translateY(45%); }
+    &--3 { left: 45vw; bottom: 0; transform: translateY(calc(100% + #{$space * 12})); }
+    &--4 { right: 10vw; bottom: 0; transform: translateY(calc(100% - #{$space * 8})); }
+  }
+}

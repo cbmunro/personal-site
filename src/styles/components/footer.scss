@@ -1,0 +1,13 @@
+@import '../layout.scss';
+
+.footer {
+  @extend %layout;
+  position: relative;
+  z-index: 1;
+  max-width: 295px;
+  padding-top: $space * 4;
+  padding-bottom: $space * 4;
+  color: $text-color-1;
+  font-family: 'Courier';
+  font-size: 12px;
+}

@@ -1,0 +1,17 @@
+@import "../global";
+
+.header {
+  &__logo {
+    position: absolute;
+    z-index: 2;
+    top: $space * 6;
+    left: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: translateX(-50%);
+
+    svg {
+      display: block;
+    }
+  }
+}
